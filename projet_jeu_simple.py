@@ -8,6 +8,9 @@ while  a <1 or a >10:
 
 print ("vous etes dans le bon intervale")
 if a%2==0:
-   print("Vous avez gagné 10 Euros")
-   if a<=3:
-      print("Vous avez perdu 5 euros")
+   if a < 5 :
+      print("Vous avez gagné un euro.")
+   elif a > 5:
+      print("Vous avez perdu 3 euros.")
+
+  
