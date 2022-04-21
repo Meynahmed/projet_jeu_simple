@@ -19,3 +19,11 @@ else:
         print("vous avez rien gagné")
     else:
         print("vous avez perdu 4 euro")
+#faire une boucle qui pour des nombres en dehors de l'intervalle mais compris entre 10 et 20, on rempli une liste vide avec ces nombres
+list = []
+while a > 10 and a < 20:
+    nb = int(input(" entrer un nombre :"))
+    list.append(nb)
+    print( list)
+
+
